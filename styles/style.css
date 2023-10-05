@@ -1,0 +1,110 @@
+:root {
+    /* change the values below to your colors from your palette */
+    --primary-color: #274C77   ;
+    --secondary-color: #6096BA ;
+    --accent1-color: #A3CEF1;
+    --accent2-color: white;
+  
+    /* change the values below to your chosen font(s) */
+    --heading-font: "EB Garamond";
+    --paragraph-font: Open Sans, Helvetica, sans-serif;
+  
+    /* these colors below should be chosen from among your palette colors above */
+    --headline-color-on-white: #274C77;  /* headlines on a white background */ 
+    --headline-color-on-color: white; /* headlines on a colored background */ 
+    --paragraph-color-on-white: #274C77; /* paragraph text on a white background */ 
+    --paragraph-color-on-color: white; /* paragraph text on a colored background */ 
+    --paragraph-background-color: #274C77  ;
+    --nav-link-color: #274C77;
+    --nav-background-color: #A3CEF1;
+    --nav-hover-link-color: white;
+    --nav-hover-background-color: #274C77;
+  }
+
+/*ID PART*/
+#content {
+    max-width: 1600px;
+    margin: 0 auto; 
+}
+#hero-msg h1, #hero-msg h4{
+    text-align: center;
+}
+#hero-img{
+    width: 100%;
+}
+#background{
+    height: 725px;
+    background-color: white;
+}
+
+
+/*SECOND CLASS PART*/
+.book, .join{
+    background-color:#A3CEF1;
+    color:black;
+    text-decoration: none;
+}
+.book:hover, .join:hover{
+    background-color:#6096BA;
+    color: white;
+}
+.msg{
+    background-color:#A3CEF1;
+}
+.msg h2{
+    color: black;
+}
+.msg p{
+    color: black;
+}
+.button-box{
+    text-align: center;
+}
+.home-title{
+    color: black;
+}
+.logo{
+    width: 80px;
+}
+.icon{
+    width: 80px;
+}
+
+
+/*NAME FUCTION PART*/
+nav a{
+    text-align: center;
+    color: black;
+    text-decoration: none;
+}
+nav a:hover{
+    background-color:#A3CEF1;
+    color: black;
+}
+main section{
+    text-align: center;
+}
+/*Background-Colors Part*/
+body{
+    background-color:#A3CEF1;
+}
+header{
+    background-color:#6096BA;
+}
+h4{
+    color: black;
+}
+footer{
+    background-color: #6096BA;
+    color: black;
+}
+footer a{
+    color: black;
+    text-decoration: none;
+}
+footer a:hover{
+    color: white;
+}
+footer p {
+    font-size: 1.2em;
+}    
