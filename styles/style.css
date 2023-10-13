@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond&family=Open+Sans:ital@1&display=swap');
+
 :root {
     /* change the values below to your colors from your palette */
     --primary-color: #274C77   ;
@@ -19,6 +21,9 @@
     --nav-background-color: #A3CEF1;
     --nav-hover-link-color: white;
     --nav-hover-background-color: #274C77;
+
+    --heading-font: "EB Garamond";
+    --paragraph-font: Open Sans, Helvetica, sans-serif;
   }
 
 /*ID PART*/
@@ -36,6 +41,10 @@
     height: 725px;
     background-color: white;
 }
+#logo_link{
+    padding-top: 5px;
+}
+
 
 
 /*SECOND CLASS PART*/
@@ -43,64 +52,95 @@
     background-color:#A3CEF1;
     color:black;
     text-decoration: none;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
 }
 .book:hover, .join:hover{
-    background-color:#6096BA;
+    background-color:#A3CEF1;
     color: white;
 }
 .msg{
-    background-color:#A3CEF1;
+    background-color:#6096BA;
+    line-height:1.5em;
+    padding: 35px;
+    
 }
 .msg h2{
     color: black;
 }
 .msg p{
     color: black;
+    padding-bottom: 15px;
 }
 .button-box{
     text-align: center;
 }
 .home-title{
     color: black;
+    font-family: var(--heading-font);
+    font-size: 2em;
+    margin-top: 10px;
+    text-align: center;
 }
 .logo{
     width: 80px;
 }
 .icon{
     width: 80px;
+    padding-top: 10px;
 }
-
+.rivers-card, .camping-card, .rapids-card{
+    margin: 200px 0;
+}
+.card-img{
+    border: 10px solid black;
+}
 
 /*NAME FUCTION PART*/
 nav a{
     text-align: center;
     color: black;
     text-decoration: none;
+    padding: 35px;
 }
 nav a:hover{
-    background-color:#A3CEF1;
+    background-color:#6096BA;
     color: black;
 }
 main section{
     text-align: center;
 }
+main section img{
+    box-sizing: border-box;
+}
 /*Background-Colors Part*/
 body{
-    background-color:#A3CEF1;
+    background-color:#6096BA;
+    font-family:var(--paragraph-font);
+    font-size: 22px;
+    margin: 0;
+    padding: 0;
 }
 header{
-    background-color:#6096BA;
+    background-color:#A3CEF1;
+}
+h2 {
+    margin: 0;
 }
 h4{
     color: black;
 }
 footer{
-    background-color: #6096BA;
+    background-color: #A3CEF1;
     color: black;
+    padding: 25px 50px;
+    margin-top: 200px;
 }
 footer a{
     color: black;
     text-decoration: none;
+    margin-top: 200px;
 }
 footer a:hover{
     color: white;
@@ -108,3 +148,7 @@ footer a:hover{
 footer p {
     font-size: 1.2em;
 }    
+
+footer .social img{
+    padding-top: 15px;
+}
